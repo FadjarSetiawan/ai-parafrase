@@ -1,4 +1,4 @@
-import { Github, Mail, Coffee } from 'lucide-react'
+import { GitBranch, Mail, Coffee } from 'lucide-react'
 
 export const Footer = () => {
   return (
@@ -19,7 +19,7 @@ export const Footer = () => {
                 rel="noopener noreferrer"
                 className="hover:text-white transition-colors"
               >
-                <Github className="w-5 h-5" />
+                <GitBranch className="w-5 h-5" />
               </a>
               <a
                 href="mailto:contact@aiparafrase.com"
